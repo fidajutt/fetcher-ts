@@ -28,11 +28,3 @@ const fetcher = apiFetcher({
 
 fetcher.get('/endpoint').then(response => console.log(response));
 ```
-
-## Testing
-
-Run the tests using Jest:
-
-```bash
-npm test
-```
