@@ -36,7 +36,3 @@ Run the tests using Jest:
 ```bash
 npm test
 ```
-
-## License
-
-This project is licensed under the MIT License.
