@@ -1,6 +1,6 @@
-# api-fetcher-ts
+# fetcher-ts
 
-api-fetcher-ts is a TypeScript library for centralized fetch() with error handling, retries, timeouts, and type-safe API calls.
+fetcher-ts is a TypeScript library for centralized fetch() with error handling, retries, timeouts, and type-safe API calls.
 
 ## Features
 
@@ -12,13 +12,13 @@ api-fetcher-ts is a TypeScript library for centralized fetch() with error handli
 ## Installation
 
 ```bash
-npm install api-fetcher-ts
+npm install fetcher-ts
 ```
 
 ## Usage
 
 ```typescript
-import { apiFetcher } from 'api-fetcher-ts';
+import { apiFetcher } from 'fetcher-ts';
 
 const fetcher = apiFetcher({
   baseUrl: 'https://api.example.com',
